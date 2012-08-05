@@ -1,7 +1,7 @@
 Demo.Router = Backbone.Router.extend({
 
 	routes: {
-        "" : "index",         // entry point: no hash fragment or #
+		"" : "index",         // entry point: no hash fragment or #
 		"item/:item_id":"item",// #item/id
 		"sections" : "sections",
 		"searchrt" : "searchrt",
